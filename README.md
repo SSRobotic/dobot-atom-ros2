@@ -1,3 +1,22 @@
+# DOBOT Atom ROS 2 · SSRobotic Collection
+
+> **This collection has moved into [Humanoid Robot Hub](https://github.com/SSRobotic/humanoid-robot-hub).**
+> Browse the consolidated code: [collections/dobot/atom-ros2](https://github.com/SSRobotic/humanoid-robot-hub/tree/main/collections/dobot/atom-ros2) · [Search resources](https://ssrobotic.github.io/humanoid-robot-hub/)
+
+ROS 2 packages, robot descriptions, simulation and control examples.
+
+Curated and organized by **SSRobotic — Robotics Engineer & Open-source Curator**. Original source: [Dobot-Arm](https://github.com/Dobot-Arm/dobot_atom_ros2). The original code, documentation and license notices retain their respective authorship.
+
+## What this collection provides
+
+ROS 2 packages, robot descriptions, simulation and control examples.
+
+The Hub contains a snapshot of this repository at `7f4211b16e2445f1a0e1e5ae5bef1dc645c7b8b4`. This repository is retained as an archived reference so previous links and history remain available. Updates to the curated collection belong in the Hub.
+
+---
+
+## Original documentation
+
 # Dobot Atom 机器人 ROS2 支持包
 
 本项目为 Dobot Atom 人形机器人提供完整的 ROS2 支持，包括机器人模型、仿真环境、控制接口和示例程序。
@@ -72,7 +91,7 @@ ros2 run turtlesim turtle_teleop_key
 - 第一句指令将启动一个蓝色背景的海龟仿真器。
 - 第二句指令将启动键盘控制节点，使用键盘上的“上下左右”按键控制小海龟运动。
 
-![turtlesim](/image/image2544.png)
+![turtlesim](./image/image2544.png)
 
 ---
 
@@ -188,7 +207,7 @@ sudo gedit ~/.bashrc
 如果连接真实机器人，需要配置网络接口：
 
    1.设置网段至192.168.8.xx：
-   ![rviz](/image/IP.jpg)
+   ![rviz](./image/IP.jpg)
 
 2. 查看网络接口：
 
@@ -221,11 +240,11 @@ ros2 topic list
 
 可以看见如下话题：
 
-![topic](/image/topic.jpg)
+![topic](./image/topic.jpg)
 
 打开终端随意查看一个话题：ros2 topic echo /xxxx 有数据说明通讯正常例如：
 
-![topic_info.](/image/topic_info.jpg)
+![topic_info.](./image/topic_info.jpg)
 
 ## 🎯 快速开始
 
@@ -258,7 +277,7 @@ ros2 topic list
   - `msg/`: 自定义消息类型
   - 机器人状态和控制消息定义
 
-    ![interface](/image/interface.jpg)
+    ![interface](./image/interface.jpg)
 
 ### dobot_atom_rviz
 
@@ -267,7 +286,7 @@ ros2 topic list
   - `launch/dobot_rviz.launch.py`: RViz 启动文件
   - `rviz/`: RViz 配置文件
 
-    ![rviz](/image/rviz.jpg)
+    ![rviz](./image/rviz.jpg)
 
 ### atom_control_examples
 
